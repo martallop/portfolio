@@ -1,0 +1,156 @@
+body {
+  background-color: #fdd9ca;
+  cursor: url('../images/cursor.png'), default;
+}
+
+@font-face {
+  font-family: "lineto-brown-regular";
+  /*font-family: "lineto-brown-bold";
+  font-family: "FreightDisp Pro Book Italic";*/
+  src: url("../fonts/lineto-brown-regular.ttf");
+/*  src: url("../fonts/lineto-brown-bold.ttf");
+  src: url("../fonts/FreightDisp Pro Book Italic.otf");*/
+}
+
+@font-face {
+  font-family: "lineto-brown-bold";
+  src: url("../fonts/lineto-brown-bold.ttf");
+}
+
+@font-face {
+  font-family: "FreightDisp Pro Book Italic";
+  src: url("../fonts/FreightDisp Pro Book Italic.otf");
+}
+
+header {
+  height: 150px;
+  margin-bottom: 100px;
+/*  margin-top: -65px;*/
+/*  background-color: #fdd9ca;
+  position: fixed;*/
+}
+
+footer {
+  height: 50px;
+  margin-top: 75px;
+}
+
+h1 {
+  font-family: "lineto-brown-bold";
+  text-align: center;
+  font-size: 22px;
+  margin-top: 0px;
+  margin-bottom: 0px 10px;
+}
+
+h2 {
+  font-family: "lineto-brown-regular";
+  text-align: center;
+  font-size: 18px;
+  margin: 0px 10px;
+}
+
+h3, p {
+  font-family: "FreightDisp Pro Book Italic";
+  text-align: center;
+  font-size: 18px;
+  margin: 0px 10px;
+}
+
+/*p {
+  font-family: "lineto-brown-regular";
+  font-size: 16px;
+  text-align: center;*/
+/*  margin-bottom: 10px;*/
+}
+
+a {
+  text-align: center;
+  margin: 0px;
+}
+
+.container-fluid {
+  max-width: 2000px;
+}
+
+.logo {
+  margin-top: 20px;
+  height: 90px;
+  background-color: gray;
+  background: url(../images/logo.jpg) center center no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.project-homepage {
+  min-height: 300px;
+  background-color: gray;
+  margin-bottom: 175px;
+  box-shadow: 12px 12px 0px black;
+}
+
+#project1-homepage-img {
+  background: url(../images/1.png) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#project2-homepage-img {
+  background: url(../images/2.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#project3-homepage-img {
+  background: url(../images/3.png) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#project4-homepage-img {
+  background: url(../images/4.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#project5-homepage-img {
+  background: url(../images/5.png) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#project6-homepage-img {
+  background: url(../images/6.png) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.project-page {
+  height: 500px;
+  background-color: gray;
+  margin-bottom: 75px;
+  box-shadow: 12px 12px 0px black;
+}
+
+#project1-page-img {
+  background: url(../images/examples/1.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.about-photo {
+  height: 500px;
+  background: url(../images/about1.jpg) center center no-repeat;
+  background-size: cover;
+  margin-bottom: 75px;
+  box-shadow: 12px 12px 0px black;
+  overflow: hidden;
+}
+
+#contact-container {
+  min-height: 250px;
+  /*min-height: 75%;*/
+}
+
+
+
