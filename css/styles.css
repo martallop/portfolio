@@ -1,6 +1,11 @@
 body {
   background-color: #fdd9ca;
-  cursor: url('../images/cursor.png'), default;
+  /*cursor: url('../images/cursor.png'), default;*/
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
 }
 
 @font-face {
@@ -84,9 +89,13 @@ a {
 
 .project-homepage {
   min-height: 300px;
-  background-color: gray;
+  position: relative;
+  background-color: black;
   margin-bottom: 175px;
   box-shadow: 12px 12px 0px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #project1-homepage-img {
@@ -150,6 +159,52 @@ a {
 #contact-container {
   min-height: 250px;
   /*min-height: 75%;*/
+}
+
+.carousel-img {
+  /*width: 800px;*/
+  box-shadow: 12px 12px 0px black;
+}
+
+/*.overlay-black {
+  background-color: black;
+  opacity: 0.60;
+  -moz-opacity: 60%;
+  -webkit-opacity: 60%;
+}*/
+
+
+.tint {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all .3s linear;
+  background: none;
+}
+
+.tint:hover:before { 
+  background: black;
+  opacity: 0.7;
+}
+
+.info-mouseover {
+  color: white;
+  display: none;
+  z-index: 1;
+  
 }
 
 
