@@ -5,7 +5,9 @@ body {
 
 img {
   max-width: 100%;
-  object-fit: cover;
+  height: auto;
+  display: block;
+ /* object-fit: cover;*/
 }
 
 @font-face {
@@ -37,7 +39,7 @@ header {
 
 footer {
   height: 50px;
-  margin-top: 75px;
+  margin-top: 100px;
 }
 
 h1 {
@@ -72,6 +74,7 @@ h3, p {
 a {
   text-align: center;
   margin: 0px;
+  text-decoration: 
 }
 
 .container-fluid {
@@ -79,7 +82,7 @@ a {
 }
 
 .logo {
-  margin-top: 20px;
+  margin-top: -30px;
   height: 90px;
   background-color: gray;
   background: url(../images/logo.jpg) center center no-repeat;
@@ -89,6 +92,9 @@ a {
 
 .project-homepage {
   min-height: 300px;
+/*  max-height: 800px;*/
+/*  width: 65%;*/
+  /*height: auto;*/
   position: relative;
   background-color: black;
   margin-bottom: 175px;
@@ -163,7 +169,7 @@ a {
 
 .carousel-img {
   /*width: 800px;*/
-  box-shadow: 12px 12px 0px black;
+/*  box-shadow: 12px 12px 0px black;*/
 }
 
 /*.overlay-black {
@@ -177,8 +183,8 @@ a {
 .tint {
   position: relative;
   float: left;
-  margin-right: 20px;
-  margin-bottom: 20px;
+/*  margin-right: 20px;*/
+  margin-bottom: 175px;
   cursor: pointer;
 }
 
@@ -204,8 +210,8 @@ a {
   color: white;
   display: none;
   z-index: 1;
-  
 }
+
 
 
 

@@ -40,6 +40,10 @@ $(document).ready(function(){
   });
   // end of carousel
 
+
+
+  // show project info text when mouseover projects
+
   $('.project-homepage').mouseover(function() {
     // $('.info-mouseover').show();
     $(this).children('.info-mouseover').show();
@@ -52,6 +56,21 @@ $(document).ready(function(){
       // $('.info-mouseover').attr('id', '');
        $('.info-mouseover').hide();
   });
+
+
+
+
+
+// change background color in homepage when mouseover projects
+
+  $("#background1").mouseover(function(){
+    $("body").css("background-color", "yellow");
+  });
+
+  $("#background1").mouseout(function(){
+    $("body").css("background-color", "#fdd9ca");
+  });
+
 
 
 
