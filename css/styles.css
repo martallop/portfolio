@@ -90,7 +90,23 @@ a {
   overflow: hidden;
 }
 
+.thumbnail-homepage {
+  max-width: 100%;
+  height: auto;
+  text-decoration: none;
+  display: block;
+  position: relative;
+/*  z-index: -1;*/
+  margin-bottom: 175px;
+  box-shadow: 12px 12px 0px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .project-homepage {
+  max-width: 100%;
+  height: auto;
   min-height: 300px;
 /*  max-height: 800px;*/
 /*  width: 65%;*/
@@ -105,19 +121,19 @@ a {
 }
 
 #project1-homepage-img {
-  background: url(../images/1.png) center center no-repeat;
+  background: url(../images/thumbnails/01.jpg) center center no-repeat;
   background-size: cover;
   overflow: hidden;
 }
 
 #project2-homepage-img {
-  background: url(../images/2.jpg) center center no-repeat;
+  background: url(../images/thumbnails/02.jpg) center center no-repeat;
   background-size: cover;
   overflow: hidden;
 }
 
 #project3-homepage-img {
-  background: url(../images/3.png) center center no-repeat;
+  background: url(../images/thumbnails/03.jpg) center center no-repeat;
   background-size: cover;
   overflow: hidden;
 }
@@ -186,13 +202,16 @@ a {
 /*  margin-right: 20px;*/
   margin-bottom: 175px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .tint:before {
   content: "";
   display: block;
   position: absolute;
-  z-index: 0;
+  z-index: 1;
   top: 0;
   bottom: 0;
   left: 0;
@@ -209,7 +228,7 @@ a {
 .info-mouseover {
   color: white;
   display: none;
-  z-index: 1;
+  z-index: 2;
 }
 
 

@@ -44,18 +44,33 @@ $(document).ready(function(){
 
   // show project info text when mouseover projects
 
-  $('.project-homepage').mouseover(function() {
+  $('.tint').mouseover(function() {
     // $('.info-mouseover').show();
     $(this).children('.info-mouseover').show();
 
      // $('.info-mouseover').addClass('displayOverlay');
   });
 
-  $('.project-homepage').mouseout(function() {
+  $('.tint').mouseout(function() {
       // $('.info-mouseover').removeClass('displayOverlay');
       // $('.info-mouseover').attr('id', '');
        $('.info-mouseover').hide();
   });
+
+
+  $('.thumbnail-homepage').mouseover(function() {
+    // $('.info-mouseover').show();
+    $(this).children('.info-mouseover').show();
+
+     // $('.info-mouseover').addClass('displayOverlay');
+  });
+
+  $('.thumbnail-homepage').mouseout(function() {
+      // $('.info-mouseover').removeClass('displayOverlay');
+      // $('.info-mouseover').attr('id', '');
+       $('.info-mouseover').hide();
+  });
+
 
 
 
