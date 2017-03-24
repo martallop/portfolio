@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+
   // start of carousel
   $('.carousel').slick({
     dots: true,
@@ -42,36 +43,16 @@ $(document).ready(function(){
 
 
 
+
   // show project info text when mouseover projects
 
   $('.tint').mouseover(function() {
-    // $('.info-mouseover').show();
     $(this).children('.info-mouseover').show();
-
-     // $('.info-mouseover').addClass('displayOverlay');
   });
 
   $('.tint').mouseout(function() {
-      // $('.info-mouseover').removeClass('displayOverlay');
-      // $('.info-mouseover').attr('id', '');
        $('.info-mouseover').hide();
   });
-
-
-  $('.thumbnail-homepage').mouseover(function() {
-    // $('.info-mouseover').show();
-    $(this).children('.info-mouseover').show();
-
-     // $('.info-mouseover').addClass('displayOverlay');
-  });
-
-  $('.thumbnail-homepage').mouseout(function() {
-      // $('.info-mouseover').removeClass('displayOverlay');
-      // $('.info-mouseover').attr('id', '');
-       $('.info-mouseover').hide();
-  });
-
-
 
 
 
@@ -79,7 +60,7 @@ $(document).ready(function(){
 // change background color in homepage when mouseover projects
 
   $("#background1").mouseover(function(){
-    $("body").css("background-color", "yellow");
+    $("body").css("background-color", "#9e5169");
   });
 
   $("#background1").mouseout(function(){
@@ -88,8 +69,73 @@ $(document).ready(function(){
 
 
 
+  $("#background2").mouseover(function(){
+    $("body").css("background-color", "#bae1e5");
+  });
+
+  $("#background2").mouseout(function(){
+    $("body").css("background-color", "#fdd9ca");
+  });
 
 
+
+  $("#background3").mouseover(function(){
+    $("body").css("background-color", "#ddbf66");
+  });
+
+  $("#background3").mouseout(function(){
+    $("body").css("background-color", "#fdd9ca");
+  });
+
+
+
+  $("#background4").mouseover(function(){
+    $("body").css("background-color", "#ffffff");
+  });
+
+  $("#background4").mouseout(function(){
+    $("body").css("background-color", "#fdd9ca");
+  });
+
+
+
+  $("#background5").mouseover(function(){
+    $("body").css("background-color", "#ddb097");
+  });
+
+  $("#background5").mouseout(function(){
+    $("body").css("background-color", "#fdd9ca");
+  });
+
+
+
+  $("#background6").mouseover(function(){
+    $("body").css("background-color", "#45d6ba");
+  });
+
+  $("#background6").mouseout(function(){
+    $("body").css("background-color", "#fdd9ca");
+  });
+
+
+
+  $("#background7").mouseover(function(){
+    $("body").css("background-color", "#d8c5b2");
+  });
+
+  $("#background7").mouseout(function(){
+    $("body").css("background-color", "#fdd9ca");
+  });
+
+
+
+  $("#background8").mouseover(function(){
+    $("body").css("background-color", "#eaeaea");
+  });
+
+  $("#background8").mouseout(function(){
+    $("body").css("background-color", "#fdd9ca");
+  });
 
 
 

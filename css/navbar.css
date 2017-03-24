@@ -38,6 +38,14 @@
   padding: 11px;
 }
 
+.space-bottom {
+  margin-bottom: 20px;
+}
+
+#space-services {
+  margin-bottom: 5px;
+}
+
 #main {
 /*  transition: margin-right .5s;*/
   transition: margin-left .5s;
