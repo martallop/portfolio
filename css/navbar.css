@@ -46,6 +46,19 @@
   margin-bottom: 5px;
 }
 
+.socialicons-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.socialicons-navbar-space {
+  margin: 0px 1px;
+  width: 75%;
+}
+
 #main {
 /*  transition: margin-right .5s;*/
   transition: margin-left .5s;

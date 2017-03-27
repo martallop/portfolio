@@ -30,7 +30,7 @@ img {
 }
 
 header {
-  height: 150px;
+  height: 100px;
   margin-bottom: 100px;
 /*  margin-top: -65px;*/
 /*  background-color: #fdd9ca;
@@ -40,6 +40,9 @@ header {
 footer {
   height: 50px;
   margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -63,21 +66,38 @@ h3, p {
   margin: 0px 10px;
 }
 
+h4 {
+  font-family: "FreightDisp Pro Book Italic";
+  text-align: center;
+  font-size: 24px;
+  margin: 0px 10px;
+  line-height: 1.5;
+}
+
 .footer-fontsize {
   font-size: 14px;
 }
 
-/*p {
-  font-family: "lineto-brown-regular";
-  font-size: 16px;
-  text-align: center;*/
-/*  margin-bottom: 10px;*/
-}
-
-a {
+/*a {
   text-align: center;
   margin: 0px;
   text-decoration: none; 
+  color: black;
+}*/
+
+/*a:hover, a:focus {
+  color: black;
+  text-decoration: none;
+}*/
+
+a,
+a.active,
+a:active,
+a:focus,
+a:hover {
+  outline: 0;
+  text-decoration: none;
+  cursor: pointer
 }
 
 .container-fluid {
@@ -171,21 +191,18 @@ a {
   overflow: hidden;
 }
 
-.project-page {
-  height: 500px;
-  background-color: gray;
-  margin-bottom: 75px;
-  box-shadow: 12px 12px 0px black;
+.project-images {
+  margin-top: 100px;
+  margin-bottom: 175px;
 }
 
-#project1-page-img {
-  background: url(../images/examples/1.jpg) center center no-repeat;
-  background-size: cover;
-  overflow: hidden;
+.project-images-space {
+  margin-top: 40px;
 }
 
 .about-photo {
   height: 500px;
+/*  max-width: 400px;*/
   background: url(../images/about1.jpg) center center no-repeat;
   background-size: cover;
   margin-bottom: 75px;
@@ -194,22 +211,12 @@ a {
 }
 
 #contact-container {
-  min-height: 250px;
-  /*min-height: 75%;*/
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*  margin-bottom: 10px;*/
 }
-
-.carousel-img {
-  /*width: 800px;*/
-/*  box-shadow: 12px 12px 0px black;*/
-}
-
-/*.overlay-black {
-  background-color: black;
-  opacity: 0.60;
-  -moz-opacity: 60%;
-  -webkit-opacity: 60%;
-}*/
-
 
 .tint {
   position: relative;
@@ -240,6 +247,46 @@ a {
   opacity: 0.7;
 }
 
+/*.t1:hover:before { 
+  background: #9e5169;
+  opacity: 0.7;
+}
+
+.t2:hover:before { 
+  background: #bae1e5;
+  opacity: 0.7;
+}
+
+.t3:hover:before { 
+  background: #ddbf66;
+  opacity: 0.7;
+}
+
+.t4:hover:before { 
+  background: #f1f1f1;
+  opacity: 0.7;
+}
+
+.t5:hover:before { 
+  background: #ddb097;
+  opacity: 0.7;
+}
+
+.t6:hover:before { 
+  background: #45d6ba;
+  opacity: 0.7;
+}
+
+.t7:hover:before { 
+  background: #d8c5b2;
+  opacity: 0.7;
+}
+
+.t8:hover:before { 
+  background: #eaeaea;
+  opacity: 0.7;
+}*/
+
 .info-mouseover {
   color: white;
   text-decoration: none;
@@ -247,6 +294,29 @@ a {
   z-index: 2;
 }
 
+.project-description {
+  margin-bottom: 120px;
+}
+
+.space-headlines {
+  margin-bottom: 15px;
+}
+
+.space-paragraph {
+  margin-bottom: 30px;
+}
+
+.socialicons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.socialicons-space {
+  margin: 0px 10px;
+}
 
 
 

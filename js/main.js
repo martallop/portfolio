@@ -59,81 +59,81 @@ $(document).ready(function(){
 
 // change background color in homepage when mouseover projects
 
-  $("#background1").mouseover(function(){
+  $(".background1").mouseover(function(){
     $("body").css("background-color", "#9e5169");
   });
 
-  $("#background1").mouseout(function(){
+  $(".background1").mouseout(function(){
     $("body").css("background-color", "#fdd9ca");
   });
 
 
 
-  $("#background2").mouseover(function(){
+  $(".background2").mouseover(function(){
     $("body").css("background-color", "#bae1e5");
   });
 
-  $("#background2").mouseout(function(){
+  $(".background2").mouseout(function(){
     $("body").css("background-color", "#fdd9ca");
   });
 
 
 
-  $("#background3").mouseover(function(){
+  $(".background3").mouseover(function(){
     $("body").css("background-color", "#ddbf66");
   });
 
-  $("#background3").mouseout(function(){
+  $(".background3").mouseout(function(){
     $("body").css("background-color", "#fdd9ca");
   });
 
 
 
-  $("#background4").mouseover(function(){
-    $("body").css("background-color", "#ffffff");
+  $(".background4").mouseover(function(){
+    $("body").css("background-color", "#f1f1f1");
   });
 
-  $("#background4").mouseout(function(){
+  $(".background4").mouseout(function(){
     $("body").css("background-color", "#fdd9ca");
   });
 
 
 
-  $("#background5").mouseover(function(){
+  $(".background5").mouseover(function(){
     $("body").css("background-color", "#ddb097");
   });
 
-  $("#background5").mouseout(function(){
+  $(".background5").mouseout(function(){
     $("body").css("background-color", "#fdd9ca");
   });
 
 
 
-  $("#background6").mouseover(function(){
+  $(".background6").mouseover(function(){
     $("body").css("background-color", "#45d6ba");
   });
 
-  $("#background6").mouseout(function(){
+  $(".background6").mouseout(function(){
     $("body").css("background-color", "#fdd9ca");
   });
 
 
 
-  $("#background7").mouseover(function(){
+  $(".background7").mouseover(function(){
     $("body").css("background-color", "#d8c5b2");
   });
 
-  $("#background7").mouseout(function(){
+  $(".background7").mouseout(function(){
     $("body").css("background-color", "#fdd9ca");
   });
 
 
 
-  $("#background8").mouseover(function(){
+  $(".background8").mouseover(function(){
     $("body").css("background-color", "#eaeaea");
   });
 
-  $("#background8").mouseout(function(){
+  $(".background8").mouseout(function(){
     $("body").css("background-color", "#fdd9ca");
   });
 
