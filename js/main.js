@@ -3,7 +3,7 @@ $(document).ready(function(){
 
   // start of carousel
   $('.carousel').slick({
-    dots: true,
+    dots: false,
     infinite: true,
     // speed: 300,
     autoplay: true,
@@ -14,15 +14,38 @@ $(document).ready(function(){
       {
         breakpoint: 1024,
         settings: {
+          dots: false,
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
+        }
+      },
+      {
+        breakpoint: 900,
+        settings: {
+          dots: false,
+          arrows: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          dots: false,
+          arrows: false,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
         }
       },
       {
         breakpoint: 600,
         settings: {
+          dots: false,
+          arrows: false,
+          swipe: true,
           slidesToShow: 1,
           slidesToScroll: 1
         }
@@ -30,6 +53,9 @@ $(document).ready(function(){
       {
         breakpoint: 480,
         settings: {
+          dots: false,
+          arrows: false,
+          swipe: true,
           slidesToShow: 1,
           slidesToScroll: 1
         }

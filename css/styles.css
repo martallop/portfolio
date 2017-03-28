@@ -123,27 +123,24 @@ a:hover {
   overflow: hidden;
 }
 
-.thumbnail-homepage {
+/*.thumbnail-homepage {
   max-width: 100%;
   height: auto;
   text-decoration: none;
   display: block;
   position: relative;
-/*  z-index: -1;*/
+  z-index: -1;
   margin-bottom: 175px;
   box-shadow: 12px 12px 0px black;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+}*/
 
 .project-homepage {
   max-width: 100%;
   height: auto;
   min-height: 300px;
-/*  max-height: 800px;*/
-/*  width: 65%;*/
-  /*height: auto;*/
   position: relative;
   background-color: black;
   margin-bottom: 175px;
@@ -202,7 +199,7 @@ a:hover {
 }
 
 .project-images {
-  margin-top: 100px;
+  margin-top: 60px;
   margin-bottom: 175px;
 }
 
@@ -305,7 +302,7 @@ a:hover {
 }
 
 .project-description {
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 
 .space-headlines {
